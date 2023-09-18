@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="GUETOS" content="width=device-width, initial-scale=1.0">
+    <title>GUETOS</title>
+    <link rel="icon" href="Icones/icone.png">
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Inicio do primeiro conteudo -->
+        <div class="conteudo primeiro-conteudo">
+            <!--(01) Inicio da primeiraColuna -->
+            <div class="primeira-coluna">
+                <h2 class="title">Já possui cadastro?</h2>
+                <p class="descricao">Clique aqui para abrir sua contar!</p>
+                <button id="entrar" class="btn primeiro-btn">Entrar</button>
+            </div>
+            <!--(01) Inicio da segunda coluna -->
+            <div class="segunda-coluna">
+                <h2 class="title">Cadastre-se</h2>
+                <p class="descricao">G.U.E.T.O.S</p>
+                <form class="form">
+                    <label class="label-input">
+                        <i class="fa fa-envelope icon"></i>
+                        <input type="email" name="email-usuario" id="email" placeholder=" Email">
+                    </label>
+                    <label class="label-input">
+                        <i class="fa fa-lock icon-password"></i>
+                        <input type="password" name="senha-usuario" id="password" placeholder="  Password">
+                    </label>
+                    <label class="label-input">
+                        <i class="fa fa-lock icon-password"></i>
+                        <input type="password" name="confirmação-senha" id="second-password"
+                            placeholder="  Confirm Password">
+                    </label>
+                    <button class="btn segundo-btn">Cadastre-se</button>
+                </form>
+            </div>
+        </div><!-- Fim do primeiro conteudo -->
+
+        <!---------------------------------------------------------------------------------------------->
+
+        <!-- Inicio do segundo conteudo -->
+        <div class="conteudo segundo-conteudo">
+            <!--(02) Inicio da segunda coluna -->
+            <div class="primeira-coluna">
+                <h2 class="title">Olá Amigo!</h2>
+                <p class="descricao">Se quiser volta para criação de contar</p>
+                <p class="descricao">Clique no botão abaixo</p>
+                <button id="retorna" class="btn primeiro-btn">Retorne</button>
+            </div>
+            <!--(02) Inicio da primeiraColuna -->
+            <div class="segunda-coluna">
+                <h2 class="title">Log in GUETOS</h2>
+                <form class="form">
+                    <label class="label-input">
+                        <i class="fa fa-envelope icon"></i>
+                        <input type="email" name="email-usuario" id="email" placeholder="Email">
+                    </label>
+                    <label class="label-input">
+                        <i class="fa fa-lock icon-password"></i>
+                        <input type="password" name="senha-usuario" id="senha" placeholder="Password">
+                    </label>
+                    <a class="link" href="#">Esqueceu sua senha?</a>
+                    <button id="retorna" class="btn segundo-btn">Confirma</button>
+                </form>
+            </div>
+        </div><!-- Fim do segundo conteudo -->
+
+    </div>
+</body>
+<!-- Import Java -->
+<script src="js/Js.js"></script>
+</html>
